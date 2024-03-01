@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    double input_value;
-    cin >> input_value;
+    double value;
+    cin >> value;
 
-    if (input_value >= 0 && input_value <= 25) {
+    if (value >= 0 && value <= 25) {
         cout << "Interval [0, 25]" << endl;
-    } else if (input_value > 25 && input_value <= 50) {
+    } else if (value > 25 && value <= 50) {
         cout << "Interval (25, 50]" << endl;
-    } else if (input_value > 50 && input_value <= 75) {
+    } else if (value > 50 && value <= 75) {
         cout << "Interval (50, 75]" << endl;
-    } else if (input_value > 75 && input_value <= 100) {
+    } else if (value > 75 && value <= 100) {
         cout << "Interval [75, 100]" << endl;
     } else {
         cout << "Outside Intervals" << endl;
