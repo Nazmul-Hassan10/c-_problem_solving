@@ -32,3 +32,20 @@ int main() {
 
     return 0;
 }
+
+// -------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int x = 10;
+    int *ptr; // declare the pointer ptr
+    ptr = &x; // assing the address of x to ptr
+    cout << *ptr << '\n'; // prints 10
+    *ptr = 20; // assign 20 to the address where ptr is pointing at right now
+    cout << x << '\n'; // prints 20 (notice that the value of x is also changed)
+    
+    return 0;
+}
